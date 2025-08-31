@@ -1,39 +1,34 @@
-# Objetivos de la Fase XX
+# Objetivos de la Fase {{FASE_NUMERO}}: {{FASE_NOMBRE}}
 
 ## Objetivo Principal
 
-[Descripción clara y concisa del objetivo principal de esta fase]
+{{OBJETIVO_PRINCIPAL}}
+
+> **Contexto del Proyecto:** {{PROYECTO_TIPO}} usando {{TECNOLOGIAS_PRINCIPALES}}  
+> **Fase en el contexto general:** {{POSICION_EN_ROADMAP}}
 
 ## Objetivos Específicos
 
-### 1. [Objetivo Específico 1]
-- **Descripción:** [Qué se quiere lograr exactamente]
-- **Criterio de éxito:** [Cómo saber que se cumplió]
-- **Métrica:** [Medida cuantificable si aplica]
-- **Prioridad:** Alta | Media | Baja
+{{#OBJETIVOS_ESPECIFICOS}}
+### {{NUMERO}}. {{NOMBRE}}
+- **Descripción:** {{DESCRIPCION}}
+- **Criterio de éxito:** {{CRITERIO_EXITO}}
+- **Métrica:** {{METRICA}}
+- **Prioridad:** {{PRIORIDAD}}
+- **Tecnologías involucradas:** {{TECNOLOGIAS_RELACIONADAS}}
 
-### 2. [Objetivo Específico 2]
-- **Descripción:** [Qué se quiere lograr exactamente]
-- **Criterio de éxito:** [Cómo saber que se cumplió]
-- **Métrica:** [Medida cuantificable si aplica]
-- **Prioridad:** Alta | Media | Baja
-
-### 3. [Objetivo Específico 3]
-- **Descripción:** [Qué se quiere lograr exactamente]
-- **Criterio de éxito:** [Cómo saber que se cumplió]
-- **Métrica:** [Medida cuantificable si aplica]
-- **Prioridad:** Alta | Media | Baja
+{{/OBJETIVOS_ESPECIFICOS}}
 
 ## Definición de "Completado"
 
 Esta fase se considera completada cuando:
 
-- [ ] **Criterio 1:** [Descripción específica]
-- [ ] **Criterio 2:** [Descripción específica]
-- [ ] **Criterio 3:** [Descripción específica]
-- [ ] **Validación:** Todos los entregables han sido verificados
-- [ ] **Documentación:** Toda la documentación está actualizada
-- [ ] **Testing:** Las pruebas necesarias han pasado exitosamente
+{{#CRITERIOS_COMPLETITUD}}
+- [ ] **{{NOMBRE}}:** {{DESCRIPCION}}
+{{/CRITERIOS_COMPLETITUD}}
+- [ ] **Validación:** Todos los entregables han sido verificados según {{PROYECTO_TIPO}}
+- [ ] **Documentación:** Documentación específica para {{TECNOLOGIAS_PRINCIPALES}} actualizada
+- [ ] **Testing:** {{TIPO_TESTING_REQUERIDO}} completado exitosamente
 
 ## Impacto Esperado
 

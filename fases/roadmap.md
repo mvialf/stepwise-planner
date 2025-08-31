@@ -1,41 +1,40 @@
 # Roadmap del Proyecto
 
-**Proyecto:** [Nombre del proyecto]  
-**Estado General:** No iniciado | En progreso | Completado | En pausa  
-**Fase Activa:** [Fase actual en desarrollo]
+**Proyecto:** [Pendiente de inicialización]  
+**Estado General:** Sin inicializar  
+**Fases Activas:** Ninguna
 
-## Secuencia de Fases
+## Estado Actual
 
-### 📋 Fase 01: [Nombre de la fase]
-- **Estado:** No iniciada | En progreso | Completada | Bloqueada
-- **Dependencias:** Ninguna
-- **Descripción:** [Breve descripción del propósito de esta fase]
+Este proyecto utiliza **generación dinámica de fases**. Las fases se crean automáticamente cuando describes tu proyecto a Claude Code.
 
-### 📋 Fase 02: [Nombre de la fase]  
-- **Estado:** No iniciada | En progreso | Completada | Bloqueada
-- **Dependencias:** Fase 01 completada
-- **Descripción:** [Breve descripción del propósito de esta fase]
+### 🚀 Para comenzar:
+1. Describe tu proyecto: *"Quiero crear una [tipo de app] que haga [funcionalidad]"*
+2. Claude Code analizará tus necesidades
+3. Se generarán fases específicas para tu proyecto
+4. Este roadmap se actualizará automáticamente
 
-### 📋 Fase 03: [Nombre de la fase]
-- **Estado:** No iniciada | En progreso | Completada | Bloqueada  
-- **Dependencias:** Fase 02 completada
-- **Descripción:** [Breve descripción del propósito de esta fase]
+## Fases Generadas
+
+*Ninguna fase ha sido creada aún.*
+
+Las fases aparecerán aquí una vez que inicialices tu proyecto.
 
 ## Progreso General
 
 ```
-Proyecto: ████████████████████████████ 0%
+Proyecto: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
-**Fases completadas:** 0/3  
+**Fases completadas:** 0/0  
 **Tiempo invertido:** 0 días  
-**Última actualización:** [Fecha]
+**Proyecto iniciado:** No
 
 ## Próximos Pasos
 
-- [ ] **Inmediato:** [Qué hacer ahora]
-- [ ] **Esta semana:** [Objetivos de corto plazo]
-- [ ] **Siguiente fase:** [Preparación para próxima fase]
+- [ ] **Inmediato:** Describir el proyecto a Claude Code para generar fases
+- [ ] **Después:** Revisar y ajustar las fases propuestas  
+- [ ] **Luego:** Comenzar desarrollo siguiendo la fase-01
 
 ## Notas Rápidas
 

@@ -1,22 +1,33 @@
-# Tareas de la Fase XX
+# Tareas de la Fase {{FASE_NUMERO}}: {{FASE_NOMBRE}}
+
+> **Proyecto:** {{PROYECTO_NOMBRE}} ({{PROYECTO_TIPO}})  
+> **Stack principal:** {{TECNOLOGIAS_PRINCIPALES}}  
+> **Objetivo de la fase:** {{OBJETIVO_FASE_BREVE}}
 
 ## Resumen de Tareas
 
-**Total de tareas:** 0  
+**Total de tareas:** {{TOTAL_TAREAS}}  
 **Completadas:** 0  
 **En progreso:** 0  
-**Pendientes:** 0  
-**Bloqueadas:** 0  
+**Pendientes:** {{TOTAL_TAREAS}}  
+**Bloqueadas:** 0
 
 ## Tareas por Categoría
 
-### 🏗️ Arquitectura y Diseño
+{{#CATEGORIAS_TAREAS}}
+### {{EMOJI}} {{NOMBRE_CATEGORIA}}
 
-- [ ] **[T01]** [Nombre de la tarea]
-  - **Descripción:** [Qué hay que hacer]
-  - **Esfuerzo:** S | M | L | XL
-  - **Dependencias:** [Qué debe estar listo antes]
-  - **Estado:** Pendiente | En progreso | Completada | Bloqueada
+{{#TAREAS}}
+- [ ] **[{{ID}}]** {{NOMBRE}}
+  - **Descripción:** {{DESCRIPCION}}
+  - **Tecnologías específicas:** {{TECNOLOGIAS_ESPECIFICAS}}
+  - **Esfuerzo:** {{ESFUERZO}} ({{JUSTIFICACION_ESFUERZO}})
+  - **Dependencias:** {{DEPENDENCIAS}}
+  - **Estado:** Pendiente
+  - **Recursos:** {{RECURSOS_UTILES}}
+
+{{/TAREAS}}
+{{/CATEGORIAS_TAREAS}}
 
 - [ ] **[T02]** [Nombre de la tarea]
   - **Descripción:** [Qué hay que hacer]

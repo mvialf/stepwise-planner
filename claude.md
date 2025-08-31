@@ -39,40 +39,61 @@ Cuando el usuario tome una decisión arquitectónica importante, documentarla en
 6. `ideas-bloqueadas/` → Carpeta categorizada para ideas que **no se incluirán en el proyecto**, documentando el por qué fueron rechazadas.
 7. `adr/` → Carpeta con Architecture Decision Records que documentan el POR QUÉ de decisiones arquitectónicas importantes.
 
-## Sistema de Gestión de Fases
+## Sistema de Generación Dinámica de Fases
 
-### Estructura de Fases
+### Filosofía: Fases Adaptativas
 
-Cada fase del proyecto se organiza como una subcarpeta independiente en `fases/`:
+Este framework genera fases **dinámicamente** basándose en las necesidades específicas de cada proyecto. No hay fases predefinidas.
 
 ```
 fases/
-├── fase-01/           # Primera fase del proyecto
-├── fase-02/           # Segunda fase del proyecto
-├── fase-03/           # Tercera fase del proyecto
-├── TEMPLATE/          # Plantilla para nuevas fases
-└── roadmap.md         # Roadmap simplificado del proyecto
+├── README.md           # Guía del sistema dinámico
+├── TEMPLATE/          # Plantillas base para generar fases
+├── roadmap.md         # Roadmap que se actualiza automáticamente
+├── generation-rules.md # Reglas para generación inteligente
+└── [fases generadas dinámicamente]
+    ├── fase-01/       # Se crea según el proyecto específico
+    ├── fase-02/       # Se crea según dependencias y complejidad
+    └── ...
 ```
 
-### Archivos por Fase
+### Proceso de Generación de Fases
 
-Cada subcarpeta de fase contiene documentación especializada:
+#### 1. **Análisis del Proyecto**
+- **Input del usuario**: Descripción del proyecto deseado
+- **Análisis contextual**: Tipo de app, tecnologías, complejidad
+- **Preguntas inteligentes**: Solo lo esencial que no se puede inferir
 
-- **README.md**: Resumen ejecutivo, estado actual y métricas de progreso
-- **objetivos.md**: Objetivos específicos, criterios de éxito y definición de "completado"
-- **tareas.md**: Desglose detallado de trabajo y dependencias entre tareas
-- **entregables.md**: Lista específica de deliverables con criterios de aceptación
-- **dependencias.md**: Dependencias de fases anteriores, externas e internas
-- **riesgos.md**: Análisis de riesgos específicos de la fase con estrategias de mitigación
-- **notas.md**: Log diario de progreso, decisiones tomadas y lecciones aprendidas
+#### 2. **Generación Automática**
+- **Determinar número de fases**: Basado en complejidad detectada
+- **Definir objetivos por fase**: Específicos al dominio del proyecto
+- **Establecer dependencias**: Secuencia lógica de desarrollo
+- **Personalizar templates**: Contenido relevante, no genérico
 
-### Flujo de Trabajo por Fases
+#### 3. **Validación con Usuario**
+- **Mostrar propuesta**: Plan completo de fases generadas
+- **Ajustar según feedback**: Dividir, fusionar o modificar fases
+- **Crear estructura**: Generar archivos específicos por fase
 
-1. **Planificación**: Usar `TEMPLATE/` para crear nueva fase
-2. **Definición**: Completar objetivos.md, tareas.md, entregables.md
-3. **Ejecución**: Actualizar progreso en README.md y notas.md
-4. **Seguimiento**: Monitorear riesgos.md y dependencias.md
-5. **Cierre**: Documentar lecciones en notas.md y marcar como completada
+### Archivos por Fase Generada
+
+Cada fase creada dinámicamente contiene:
+
+- **README.md**: Contexto específico del proyecto y la fase
+- **objetivos.md**: Objetivos medibles y relevantes al proyecto
+- **tareas.md**: Breakdown técnico específico a las tecnologías elegidas
+- **entregables.md**: Deliverables concretos para el tipo de proyecto
+- **dependencias.md**: Solo si hay dependencias reales (no genéricas)
+- **riesgos.md**: Riesgos específicos del stack y dominio elegidos
+- **notas.md**: Log de progreso personalizado
+
+### Flujo de Trabajo Dinámico
+
+1. **Inicialización**: Usuario describe su proyecto → "Quiero crear una API REST para inventarios"
+2. **Análisis**: Claude Code detecta patrones → API + CRUD + autenticación probable
+3. **Preguntas**: Solo lo esencial → "¿Node.js o Python? ¿Base de datos relacional?"
+4. **Generación**: Crear fases específicas → No genérico, sino contextual
+5. **Ejecución**: Seguir fases generadas con contenido 100% relevante
 
 ## Sistema de Gestión de Ideas
 
@@ -99,14 +120,32 @@ Carpeta `ideas-bloqueadas/` con la misma estructura para documentar:
 - `ideas-bloqueadas/TEMPLATE.md`: Para documentar rechazos
 - `fases/TEMPLATE/`: Conjunto completo para crear nuevas fases
 
-## Comportamiento
+## Comportamiento de Generación Dinámica
 
-### Al planificar nuevas fases:
+### Al inicializar un nuevo proyecto:
 
-1. Copiar contenido de `fases/TEMPLATE/` a nueva carpeta `fase-XX/`
-2. Personalizar cada archivo según la fase específica
-3. Actualizar `fases/roadmap.md` con nueva fase
-4. Verificar dependencias con fases anteriores
+1. **Escuchar descripción del usuario**: Analizar tipo, complejidad y contexto
+2. **Hacer preguntas específicas**: Solo lo que no se puede inferir del contexto
+3. **Generar propuesta de fases**: Usar `generation-rules.md` para determinar estructura
+4. **Validar con usuario**: Mostrar plan y permitir ajustes
+5. **Crear estructura automáticamente**: Usar `TEMPLATE/` como base pero personalizando completamente el contenido
+6. **Actualizar roadmap**: Reflejar las fases específicas creadas
+
+### Al generar cada fase:
+
+1. **Analizar contexto específico**: Qué tecnologías, qué tipo de app, qué complejidad
+2. **Personalizar objetivos**: No genéricos, sino específicos al proyecto
+3. **Generar tareas relevantes**: Basadas en el stack tecnológico elegido
+4. **Establecer dependencias reales**: Solo si existen dependencias técnicas reales
+5. **Identificar riesgos específicos**: Del dominio, tecnologías y complejidad del proyecto
+
+### Comandos de interacción:
+
+- **"Quiero crear [descripción del proyecto]"** → Inicia proceso de generación
+- **"Crea una nueva fase para [objetivo específico]"** → Agrega fase adicional
+- **"Divide la fase-X en dos fases"** → Reduce granularidad
+- **"Fusiona fase-X y fase-Y"** → Aumenta granularidad
+- **"Actualiza el progreso del proyecto"** → Sincroniza métricas y estado
 
 ### Al gestionar ideas:
 
