@@ -45,9 +45,9 @@ Esta fase se considera completada cuando:
 - [Qué posibilita para las siguientes fases]
 - [Qué dependencias resuelve]
 
-### En los Stakeholders
-- [Beneficio directo para usuarios/clientes]
-- [Valor de negocio generado]
+### Para el Desarrollador
+- [Qué aprenderás o desarrollarás]
+- [Habilidades que se fortalecerán]
 
 ## Alcance
 
@@ -67,6 +67,3 @@ Esta fase se considera completada cuando:
 | [Nombre de métrica] | [Valor objetivo] | [Valor actual] | 🔴/🟡/🟢 |
 | [Nombre de métrica] | [Valor objetivo] | [Valor actual] | 🔴/🟡/🟢 |
 
----
-*Definido en: [Fecha]*  
-*Responsable: [Nombre]*

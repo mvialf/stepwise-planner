@@ -15,8 +15,6 @@
 - **Descripción:** [Qué es exactamente este entregable]
 - **Formato:** [.js, .md, .json, aplicación desplegada, etc.]
 - **Ubicación:** [Dónde estará/está el entregable]
-- **Responsable:** [Persona que lo entrega]
-- **Fecha compromiso:** YYYY-MM-DD
 - **Estado:** Pendiente | En desarrollo | En revisión | Completado
 
 **Criterios de Aceptación:**
@@ -37,8 +35,6 @@
 - **Descripción:** [Qué es exactamente este entregable]
 - **Formato:** [.js, .md, .json, aplicación desplegada, etc.]
 - **Ubicación:** [Dónde estará/está el entregable]
-- **Responsable:** [Persona que lo entrega]
-- **Fecha compromiso:** YYYY-MM-DD
 - **Estado:** Pendiente | En desarrollo | En revisión | Completado
 
 **Criterios de Aceptación:**
@@ -59,8 +55,6 @@
 - **Descripción:** [Qué es exactamente este entregable]
 - **Formato:** [.js, .md, .json, aplicación desplegada, etc.]
 - **Ubicación:** [Dónde estará/está el entregable]
-- **Responsable:** [Persona que lo entrega]
-- **Fecha compromiso:** YYYY-MM-DD
 - **Estado:** Pendiente | En desarrollo | En revisión | Completado
 
 **Criterios de Aceptación:**
@@ -75,7 +69,7 @@
 
 ---
 
-## Cronograma de Entregables
+## Estado de Entregables
 
 | ID | Entregable | Fecha Compromiso | Fecha Real | Responsable | Estado |
 |----|------------|------------------|------------|-------------|---------|
@@ -136,6 +130,3 @@ Todos los entregables deben cumplir:
 - **Problemas encontrados:** [Descripción]
 - **Decisiones tomadas:** [Cambios en especificaciones]
 
----
-*Última actualización: [Fecha]*  
-*Coordinador de entregables: [Nombre]*

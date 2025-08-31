@@ -14,15 +14,13 @@
 
 - [ ] **[T01]** [Nombre de la tarea]
   - **Descripción:** [Qué hay que hacer]
-  - **Estimación:** [Tiempo estimado]
-  - **Responsable:** [Persona asignada]
+  - **Esfuerzo:** S | M | L | XL
   - **Dependencias:** [Qué debe estar listo antes]
   - **Estado:** Pendiente | En progreso | Completada | Bloqueada
 
 - [ ] **[T02]** [Nombre de la tarea]
   - **Descripción:** [Qué hay que hacer]
-  - **Estimación:** [Tiempo estimado]
-  - **Responsable:** [Persona asignada]
+  - **Esfuerzo:** S | M | L | XL
   - **Dependencias:** [Qué debe estar listo antes]
   - **Estado:** Pendiente | En progreso | Completada | Bloqueada
 
@@ -30,8 +28,7 @@
 
 - [ ] **[T03]** [Nombre de la tarea]
   - **Descripción:** [Qué hay que hacer]
-  - **Estimación:** [Tiempo estimado]
-  - **Responsable:** [Persona asignada]
+  - **Esfuerzo:** S | M | L | XL
   - **Dependencias:** [Qué debe estar listo antes]
   - **Estado:** Pendiente | En progreso | Completada | Bloqueada
 
@@ -39,8 +36,7 @@
 
 - [ ] **[T04]** [Nombre de la tarea]
   - **Descripción:** [Qué hay que hacer]
-  - **Estimación:** [Tiempo estimado]
-  - **Responsable:** [Persona asignada]
+  - **Esfuerzo:** S | M | L | XL
   - **Dependencias:** [Qué debe estar listo antes]
   - **Estado:** Pendiente | En progreso | Completada | Bloqueada
 
@@ -48,18 +44,17 @@
 
 - [ ] **[T05]** [Nombre de la tarea]
   - **Descripción:** [Qué hay que hacer]
-  - **Estimación:** [Tiempo estimado]
-  - **Responsable:** [Persona asignada]
+  - **Esfuerzo:** S | M | L | XL
   - **Dependencias:** [Qué debe estar listo antes]
   - **Estado:** Pendiente | En progreso | Completada | Bloqueada
 
-## Cronograma de Tareas
+## Flujo de Tareas
 
-| ID | Tarea | Inicio Est. | Fin Est. | Inicio Real | Fin Real | Estado |
-|----|-------|-------------|----------|-------------|----------|---------|
-| T01 | [Nombre] | YYYY-MM-DD | YYYY-MM-DD | - | - | Pendiente |
-| T02 | [Nombre] | YYYY-MM-DD | YYYY-MM-DD | - | - | Pendiente |
-| T03 | [Nombre] | YYYY-MM-DD | YYYY-MM-DD | - | - | Pendiente |
+| ID | Tarea | Esfuerzo | Dependencias | Estado |
+|----|-------|----------|-------------|--------|
+| T01 | [Nombre] | S/M/L/XL | - | Pendiente |
+| T02 | [Nombre] | S/M/L/XL | T01 | Pendiente |
+| T03 | [Nombre] | S/M/L/XL | T01 | Pendiente |
 
 ## Dependencias Entre Tareas
 
@@ -74,24 +69,18 @@ graph TD
 
 ## Notas de Progreso
 
-### [YYYY-MM-DD]
-- **Tareas iniciadas:** [Lista]
-- **Tareas completadas:** [Lista]
-- **Bloqueadores:** [Problemas encontrados]
-- **Decisiones:** [Cambios en el plan]
+### Estado Actual
+- **Tareas completadas:** [Lista de tareas finalizadas]
+- **En progreso:** [Tarea actualmente en desarrollo]
+- **Bloqueadores activos:** [Impedimentos identificados]
+- **Próxima tarea:** [Siguiente tarea a abordar]
 
-### [YYYY-MM-DD]
-- **Tareas iniciadas:** [Lista]
-- **Tareas completadas:** [Lista]
-- **Bloqueadores:** [Problemas encontrados]
-- **Decisiones:** [Cambios en el plan]
+## Consideraciones por Tarea
 
-## Riesgos por Tarea
-
-| Tarea | Riesgo | Probabilidad | Impacto | Mitigación |
-|-------|--------|--------------|---------|------------|
-| T01 | [Descripción del riesgo] | Alta/Media/Baja | Alto/Medio/Bajo | [Estrategia] |
-| T02 | [Descripción del riesgo] | Alta/Media/Baja | Alto/Medio/Bajo | [Estrategia] |
+| Tarea | Complejidad | Riesgos | Notas |
+|-------|-------------|---------|-------|
+| T01 | Baja/Media/Alta | [Qué podría complicarse] | [Observaciones importantes] |
+| T02 | Baja/Media/Alta | [Qué podría complicarse] | [Observaciones importantes] |
 
 ## Criterios de Aceptación
 
@@ -101,6 +90,3 @@ graph TD
 - [ ] Documentación actualizada
 - [ ] Validación funcional exitosa
 
----
-*Última actualización: [Fecha]*  
-*Responsable del seguimiento: [Nombre]*

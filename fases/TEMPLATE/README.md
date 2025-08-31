@@ -2,10 +2,6 @@
 
 **Estado:** No iniciada | En progreso | Completada | Bloqueada  
 **Prioridad:** Alta | Media | Baja  
-**Fecha estimada inicio:** YYYY-MM-DD  
-**Fecha estimada fin:** YYYY-MM-DD  
-**Fecha real inicio:** YYYY-MM-DD  
-**Fecha real fin:** YYYY-MM-DD  
 
 ## Resumen Ejecutivo
 
@@ -28,13 +24,11 @@
 
 ## Notas de Progreso
 
-### [YYYY-MM-DD]
-- [Notas de lo que se trabajó este día]
-- [Decisiones tomadas]
+### Progreso Actual
+- [Qué se ha avanzado hasta ahora]
+- [Decisiones tomadas importantes]
 - [Problemas encontrados y soluciones]
-
-### [YYYY-MM-DD]
-- [Actualizaciones continuas del progreso]
+- [Lecciones aprendidas]
 
 ## Riesgos Identificados
 
@@ -50,6 +44,3 @@
 - **Dependencias:** `dependencias.md` (opcional)
 - **ADRs relacionados:** [Enlaces a decisiones arquitectónicas]
 
----
-*Última actualización: [Fecha]*  
-*Responsable: [Nombre]*
