@@ -36,7 +36,7 @@
 - [Señal temprana 3]
 
 **Impacto Detallado:**
-- **En el cronograma:** [Retraso estimado]
+- **En el tiempo:** [Retraso estimado]
 - **En el presupuesto:** [Costo adicional]
 - **En la calidad:** [Degradación esperada]
 - **En el alcance:** [Funcionalidades afectadas]
@@ -75,7 +75,7 @@
 - [Señal temprana 2]
 
 **Impacto Detallado:**
-- **En el cronograma:** [Retraso estimado]
+- **En el tiempo:** [Retraso estimado]
 - **En el presupuesto:** [Costo adicional]
 - **En la calidad:** [Degradación esperada]
 

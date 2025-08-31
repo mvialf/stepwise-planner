@@ -31,7 +31,7 @@ Cuando el usuario tome una decisión arquitectónica importante, documentarla en
 
 ## Archivos de referancia
 
-1. `proyecto.md` → Nombre, propósito general, qué hace y cómo funciona el software.
+1. `proyecto/` → Carpeta con información del proyecto: nombre, propósito, funcionamiento y contexto.
 2. `stack-tecnologico.md` → Tecnologías elegidas, librerías y convenciones.
 3. `arquitectura.md` → Visión técnica, patrones, capas y dependencias.
 4. `fases/` → Carpeta con subcarpetas por cada fase (fase-01/, fase-02/, etc.). Cada fase contiene archivos especializados: objetivos.md, tareas.md, entregables.md, dependencias.md, riesgos.md, notas.md.
@@ -51,7 +51,7 @@ fases/
 ├── fase-02/           # Segunda fase del proyecto
 ├── fase-03/           # Tercera fase del proyecto
 ├── TEMPLATE/          # Plantilla para nuevas fases
-└── cronograma.md      # Timeline general del proyecto
+└── roadmap.md         # Roadmap simplificado del proyecto
 ```
 
 ### Archivos por Fase
@@ -60,7 +60,7 @@ Cada subcarpeta de fase contiene documentación especializada:
 
 - **README.md**: Resumen ejecutivo, estado actual y métricas de progreso
 - **objetivos.md**: Objetivos específicos, criterios de éxito y definición de "completado"
-- **tareas.md**: Desglose detallado de trabajo, cronograma y dependencias entre tareas
+- **tareas.md**: Desglose detallado de trabajo y dependencias entre tareas
 - **entregables.md**: Lista específica de deliverables con criterios de aceptación
 - **dependencias.md**: Dependencias de fases anteriores, externas e internas
 - **riesgos.md**: Análisis de riesgos específicos de la fase con estrategias de mitigación
@@ -105,7 +105,7 @@ Carpeta `ideas-bloqueadas/` con la misma estructura para documentar:
 
 1. Copiar contenido de `fases/TEMPLATE/` a nueva carpeta `fase-XX/`
 2. Personalizar cada archivo según la fase específica
-3. Actualizar `fases/cronograma.md` con nueva fase
+3. Actualizar `fases/roadmap.md` con nueva fase
 4. Verificar dependencias con fases anteriores
 
 ### Al gestionar ideas:
